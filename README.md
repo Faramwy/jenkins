@@ -1,15 +1,1 @@
 # jenkins
-pipeline{
-    agent any
-    
-    stages{
-        stage('set variable'){
-            steps {
-                script{
-                    def myVariable ="hello world!"
-                    echo "value of myVariable: ${myVariable}"
-                }
-            }
-        }
-    }
-}
